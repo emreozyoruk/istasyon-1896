@@ -1,0 +1,22 @@
+# Playwright test artifacts
+.playwright-mcp/
+test-*.png
+istasyon-fullpage.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Server logs
+*.log
+.cache/
+
+# Env
+.env
+.env.local

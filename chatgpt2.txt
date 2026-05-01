@@ -1,0 +1,238 @@
+================================================================================
+CHATGPT IMAGE 2.0 — İSTASYON 1896 SİTE GÖRSELLERİ İÇİN PROMPTLAR
+================================================================================
+
+KULLANIM:
+- Her promptu ChatGPT (Image 2.0 / GPT-Image-1) ya da DALL·E 3 üzerinde
+  ayrı ayrı çalıştır.
+- Aspect ratio'yu prompt sonunda belirtilen şekilde ayarla.
+- Dosyayı PNG olarak indir, public/images/ klasörüne kaydet.
+- Tutarlılık için "ASEPSİS RULE" bölümünü her promptun başına ekle.
+
+================================================================================
+ASEPSİS RULE (HER PROMPT'A KOPYALA)
+================================================================================
+Style consistency anchor for the brand "İstasyon 1896" — Karşıyaka, İzmir.
+Mood: editorial, slow-luxury, European artisan bakery + Aegean café.
+Palette: deep espresso brown, cream off-white, warm gold highlights,
+soft shadows, golden-hour natural light. Photography style: shallow depth
+of field (f/1.8–f/2.8), 50mm or 85mm prime lens, Kodak Portra 400 film
+grain, subtle warm color grade (lifted blacks, gentle teal-orange).
+Composition: editorial Kinfolk magazine aesthetic, generous negative space,
+asymmetric framing. NO oversaturation. NO HDR look. NO plastic AI skin.
+NO text or logos overlaid unless explicitly requested.
+
+================================================================================
+1) HERO SHOT — HAND POURING MILK INTO ESPRESSO
+================================================================================
+A close-up cinematic shot of a feminine hand pouring warm steamed milk
+from a small white porcelain pitcher into a black espresso in a thin-rim
+ceramic cup, set on a polished cream marble café table. Golden morning
+light streams in from the upper left, catching the milk stream and
+creating a soft glowing edge. A single shortbread biscuit rests on the
+saucer. In the deep blurred background: out-of-focus terracotta planters
+and warm wood tones. Shot on 85mm prime, f/1.8, slight motion blur on
+the milk pour. Color grade: warm espresso shadows, cream highlights,
+golden rim light. Editorial Kinfolk magazine vibe.
+Aspect ratio: 16:9 (hero background).
+
+================================================================================
+2) CROISSANT TEAR — SIGNATURE PASTRY CLOSE-UP
+================================================================================
+Macro close-up of two hands tearing open a freshly baked, deeply
+laminated golden-brown croissant, revealing dramatic flaky honeycomb
+interior layers steaming gently. Crumbs and butter shards mid-air.
+Background out of focus: a warm-lit artisan bakery counter with marble
+surface. Light source: window light from camera-left, soft diffused.
+Color tones: amber, golden brown, cream, soft chocolate shadows.
+Shot on 100mm macro, f/2.8, ultra-fine detail on lamination layers.
+NO hands holding pastry like a model — natural, real, unstaged.
+Aspect ratio: 4:5 (vertical bento tile).
+
+================================================================================
+3) BRUNCH PLATE — TOP-DOWN EDITORIAL
+================================================================================
+Top-down (90° flat-lay) shot of an artisan brunch plate on cream marble:
+a flaky golden croissant, soft scrambled eggs with chives, half an
+avocado fanned with sea salt, oven-roasted cherry tomatoes still on the
+vine, a small ramekin of olives, two slices of sourdough. Beside the
+plate: a small glass of fresh orange juice and a tiny espresso. Wooden
+handled knife resting on a linen napkin. Soft morning window light from
+top-right, gentle long shadows. Cream + gold + green + amber palette.
+Editorial food magazine composition with generous negative space on the
+left third for text overlay.
+Aspect ratio: 3:2 (signature grid wide tile).
+
+================================================================================
+4) STEAK ON MASHED POTATO — DARK MOODY HERO DISH
+================================================================================
+A medium-rare grilled beef tenderloin steak with deep char-grill marks,
+resting on a swirl of buttery mashed potato in a dark matte ceramic
+bowl. Topped with a single sprig of rosemary. A drizzle of dark pan
+jus. Shot from a 30° low angle, dramatic side-lit by a single warm
+window light, deep brown shadows, cinematic depth. Background: dark
+out-of-focus marble texture. Steam rising softly. Tones: rich brown,
+golden butter, deep shadow espresso. Moody fine-dining editorial.
+Aspect ratio: 4:5.
+
+================================================================================
+5) PASTRY DISPLAY — VITRINE PORTRAIT
+================================================================================
+A close-up portrait shot of an artisan bakery display: rows of
+pistachio-glazed croissants, swirled cinnamon buns dusted with crushed
+hazelnuts, raspberry-cream filled cruffins topped with fresh
+strawberries, and a tray of sliced berry-cream croissant sandwiches.
+Set on a marble counter with soft golden display lighting from above.
+Slight motion blur of a customer's hand reaching toward one in the
+foreground (out of focus). Background: warm wood shelving with
+ceramic pitchers. Color: cream, raspberry red, pistachio green,
+golden amber. Bakery on a quiet Sunday morning vibe.
+Aspect ratio: 3:4.
+
+================================================================================
+6) INTERIOR ATMOSPHERE — EMPTY CAFÉ AT GOLDEN HOUR
+================================================================================
+Wide-angle interior of a small artisan café in Karşıyaka, İzmir at
+golden hour: rustic wood floor, marble-topped bistro tables, bentwood
+chairs, exposed brick wall on one side, cream plaster wall on the other,
+a long brass-edged espresso bar at the back with a vintage La Marzocco
+machine. Soft warm pendant lights. Late afternoon sunlight beams
+through tall windows, catching dust particles. A few empty cups and
+saucers on tables — the café between rushes. No people visible. Plants
+in terracotta pots. Color palette: espresso brown, cream, brass gold,
+warm white. Architectural interior magazine quality, shot on 24mm
+wide, f/4, deep DOF.
+Aspect ratio: 16:9 (gallery strip).
+
+================================================================================
+7) HANDS HOLDING COFFEE — INTIMATE PORTRAIT
+================================================================================
+Close-up portrait of a person's hands cradling a warm ceramic cappuccino
+cup with detailed rosetta latte art, on a wooden café table with a small
+notebook and gold pen beside it. Soft window light from camera-left.
+The person's beige knit sweater visible at the edges. No face visible.
+Steam rising. Cozy editorial mood. Color: cream, oat beige, warm wood,
+chocolate. Slow Sunday morning vibe.
+Aspect ratio: 4:5.
+
+================================================================================
+8) TIRAMISU CLOSE-UP — DESSERT MACRO
+================================================================================
+Top-down macro of a freshly cut tiramisu in a small dark ceramic dish,
+revealing layers of espresso-soaked ladyfingers and mascarpone cream,
+finished with a thick dusting of dark cocoa powder and three coffee
+beans on top. A small espresso spoon lifts a delicate bite, leaving a
+clean cross-section view of the layers. Marble background, soft side
+light, deep cocoa-brown and cream tones. Editorial dessert photography,
+85mm f/2.8, ultra-sharp on the layers.
+Aspect ratio: 1:1.
+
+================================================================================
+9) TERRACE / EXTERIOR — KARŞIYAKA STREET MOMENT
+================================================================================
+Street-level photograph of the entrance of a boutique café in a quiet
+İzmir Karşıyaka side street: a brown signage with serif gold lettering
+reading "İSTASYON 1896" above the door, two small bistro tables with
+linen napkins outside, terracotta planters with olive trees and rosemary.
+Late afternoon light, warm long shadows on the cobblestone street. A
+chalkboard with elegant handwriting. The Aegean blue sky barely visible
+between buildings. Mediterranean European boutique café vibe. Shot on
+35mm, f/2.8.
+Aspect ratio: 3:2.
+
+================================================================================
+10) BARISTA HANDS — CRAFT MOMENT
+================================================================================
+Close-up of a barista's hands tamping fresh espresso grounds into a
+portafilter, wearing a dark olive-brown apron with a small embroidered
+gold logo at chest level (a tiny croissant + coffee + plate icon row).
+Behind: blurred warm copper espresso machine, soft steam. Light from
+above-left. Color: olive, brass, espresso brown, warm cream. Hands of a
+craftsperson — clean, focused, no jewelry. Documentary editorial style,
+50mm f/2.0.
+Aspect ratio: 3:2.
+
+================================================================================
+11) FLATLAY — MORNING RITUAL
+================================================================================
+Top-down editorial flat-lay on cream marble: a small espresso, an open
+linen-bound notebook with a fountain pen, a half-eaten almond croissant
+on a small ceramic plate, a sprig of rosemary, an analog wristwatch
+showing 7:42, soft morning sunlight casting long diagonal shadows from
+the upper-right. Asymmetric composition with negative space on the left.
+Color: cream, espresso, gold, soft amber. Kinfolk magazine quality.
+Aspect ratio: 3:2.
+
+================================================================================
+12) BOKEH BACKGROUND TEXTURE — UI USE
+================================================================================
+Abstract out-of-focus background of a warm café interior: large soft
+golden bokeh circles from pendant lights, deep brown and cream tones,
+gentle film grain. NO subject in focus. Pure atmospheric texture for use
+behind UI components. Color: espresso #2A1A12 base, warm gold #C9A961
+highlights, cream #F4ECDF soft glows. Cinematic anamorphic bokeh.
+Aspect ratio: 16:9.
+
+================================================================================
+13) "1896" GRAPHIC ELEMENT — TYPOGRAPHIC TEXTURE
+================================================================================
+A massive serif numeral "1896" in elegant Cormorant Garamond italic, in
+gold #C9A961 outline only (no fill), placed on a deep espresso brown
+textured background with subtle film grain and a faint old paper
+fiber overlay. The numerals fill 80% of the frame width, slightly
+off-center to the right. Negative space top-left. Subtle warm rim glow.
+Vintage editorial poster aesthetic.
+Aspect ratio: 16:9.
+
+================================================================================
+14) MARBLE TABLE TEXTURE — SECTION DIVIDER
+================================================================================
+Macro photograph of a polished cream-warm marble surface with subtle
+gold and espresso veining, soft warm light raking across, showing fine
+texture and natural imperfections. No objects. Pure material study.
+Color: F4ECDF base with C9A961 and 2A1A12 vein accents. For use as a
+seamless section background or divider.
+Aspect ratio: 21:9 (panoramic divider).
+
+================================================================================
+15) PEOPLE / LIFESTYLE — TWO FRIENDS AT TABLE
+================================================================================
+A documentary-style candid shot of two friends laughing softly at a
+marble café table, mid-conversation, both holding cappuccino cups.
+Frame is composed so faces are partially out of frame or out of focus —
+focus is on hands, cups, the croissant being torn between them. Warm
+natural side light. Authentic, non-staged, no model-look. Mediterranean
+café morning vibe. Color: cream, warm brown, soft gold.
+Aspect ratio: 3:2.
+
+================================================================================
+NEGATIVE PROMPT (HER PROMPTUN SONUNA EKLE)
+================================================================================
+--no text, watermark, logo, signature, oversaturation, HDR, plastic skin,
+fake bokeh, AI hands with extra fingers, modern phone, tablet, neon
+lights, blue gradient, purple tint, generic stock photo look, model
+posing, fake smile, cartoon style, 3D render look, oversharpening
+
+================================================================================
+KAYDETME ÖNERİSİ
+================================================================================
+public/images/
+  hero-pour.jpg            → #1
+  croissant-tear.jpg       → #2
+  brunch-plate.jpg         → #3
+  steak-mash.jpg           → #4
+  pastry-display.jpg       → #5
+  interior-golden.jpg      → #6
+  hands-coffee.jpg         → #7
+  tiramisu.jpg             → #8
+  exterior-street.jpg      → #9
+  barista.jpg              → #10
+  morning-ritual.jpg       → #11
+  bokeh-bg.jpg             → #12
+  numeral-1896.jpg         → #13
+  marble-divider.jpg       → #14
+  friends-table.jpg        → #15
+
+================================================================================
+END
+================================================================================

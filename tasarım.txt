@@ -1,0 +1,262 @@
+================================================================================
+GOOGLE STITCH — İSTASYON 1896 WEB SITESİ TASARIM PROMPTU
+================================================================================
+
+KULLANIM: Aşağıdaki prompt bütününü Google Stitch'e tek seferde yapıştır.
+Stitch İngilizce'de çok daha iyi sonuç veriyor; o yüzden prompt İngilizce.
+Brand context Türkçe terimleri (İstasyon 1896, Karşıyaka, vb.) korur.
+
+================================================================================
+MASTER PROMPT (KOPYALA — YAPIŞTIR)
+================================================================================
+
+Design a frontend-only, static, ultra-premium marketing website for an
+artisanal café-bakery-bistro called "İstasyon 1896" located in Karşıyaka,
+İzmir, Turkey. The site is a high-end editorial showcase — NOT an e-commerce
+site, NOT a full menu site. Think Pinterest-tier aesthetic: cinematic,
+moody, editorial, the kind of design you'd see on Awwwards, Site Inspire,
+or a Michelin-starred restaurant's portfolio. Quality bar: $3,000+ USD
+boutique web design. No generic "AI website" look. No corporate stock vibe.
+
+────────────────────────────────────────────────────────────────────────────────
+BRAND IDENTITY
+────────────────────────────────────────────────────────────────────────────────
+- Name: İstasyon 1896 ("Station 1896" — referencing Karşıyaka's historic
+  1896 train station). The "istasyon" metaphor = a destination, a meeting
+  point, a daily ritual stop.
+- Tagline: "Everything you need is in this station." (also use Turkish:
+  "Bu istasyonda ihtiyacın olan her şey var.")
+- Personality: Heritage meets modern artisan. Warm, tactile, slow-luxury.
+  European bakery soul + Aegean café laid-back energy.
+- Three product pillars (use as iconography only, no full menu):
+  FOOD · SNACKS · DRINKS — represented by croissant, coffee cup, pasta plate
+  glyphs (matching the brand logo).
+- Hours: 07:00–23:00, Closed Sundays.
+- Address: İmbatlı, 1825. Sk. No:17, Karşıyaka / İzmir.
+- Reservation phone: 0533 074 32 35.
+- Instagram handle: @istasyon.1896
+
+────────────────────────────────────────────────────────────────────────────────
+COLOR PALETTE (use exactly)
+────────────────────────────────────────────────────────────────────────────────
+Primary:
+  --espresso:        #2A1A12   (deep brown, dominant background)
+  --coffee:          #3E2A1F   (rich brown, secondary surfaces)
+  --crema:           #F4ECDF   (warm off-white, primary text on dark)
+  --bone:            #E8DCC4   (cream, dividers + accents)
+Accents:
+  --gold:            #C9A961   (logo gold, primary accent — used SPARINGLY)
+  --gold-soft:       #B8985A   (hover states)
+  --terracotta:      #A04E2C   (rare CTA pop, use 1–2 spots max)
+Neutrals:
+  --marble:          #F8F5EE   (light section backgrounds)
+  --shadow:          rgba(0,0,0,0.5)
+Glass:
+  --glass-fill:      rgba(244,236,223,0.06)
+  --glass-stroke:    rgba(244,236,223,0.14)
+  --glass-blur:      24px
+
+The site is PRIMARILY DARK (espresso background). One or two sections may
+flip to a marble/cream "intermission" for rhythm — but never harsh white.
+
+────────────────────────────────────────────────────────────────────────────────
+TYPOGRAPHY
+────────────────────────────────────────────────────────────────────────────────
+- Display / headlines: a refined editorial serif. Use "Cormorant Garamond"
+  (or Playfair Display as alt). Weights 400–600. Heavy use of italic for
+  poetic captions ("How about dinner?" "The evil eye is lifted" — same
+  voice as the brand's existing Instagram reels).
+- Body: a clean modern sans. Use "Inter" (or "Söhne" alt). Weights 300–500.
+- Micro / labels / nav: ALL-CAPS, 0.18em letter-spacing, 11–13px, Inter 500.
+- Hero headline: 96–144px desktop, italic serif, very tight line-height
+  (0.95). Mix italic + roman in the same line for editorial rhythm.
+- Number/year display: oversized "1896" used as a graphic element somewhere
+  (transparent stroked outline behind a section).
+
+────────────────────────────────────────────────────────────────────────────────
+LIQUID GLASS / GLASSMORPHISM SYSTEM
+────────────────────────────────────────────────────────────────────────────────
+Apply a refined "liquid glass" treatment (Apple visionOS / iOS 26 inspired,
+NOT cheap frosted-glass-2018 style):
+- Floating navigation bar: glass blur 24px, 6% cream tint, 1px hairline
+  border in --glass-stroke, subtle inner highlight at top edge.
+- Reservation card / contact card: glass surface over a warm food image,
+  with a soft inner glow. Rounded corners 24px.
+- Hover-reveal cards in the gallery: glass overlay slides up on hover with
+  the dish name in italic serif.
+- Sticky "Rezervasyon" CTA: pill-shaped glass button, gold thin border,
+  soft drop shadow, micro-interaction (scale 1.02 on hover, 200ms ease-out).
+- Section dividers: thin gold 1px line with a small diamond/glyph in middle.
+
+────────────────────────────────────────────────────────────────────────────────
+PAGE STRUCTURE — SINGLE-PAGE LONG-FORM (with smooth scroll)
+────────────────────────────────────────────────────────────────────────────────
+
+1. NAVIGATION (sticky, glass)
+   - Left: small circular brown logo mark (the existing İstasyon 1896 mark)
+   - Center: nav links (Hikâye · Atmosfer · Lezzetler · Ziyaret · Rezervasyon)
+   - Right: Instagram icon + small "TR / EN" toggle (TR default)
+   - On scroll: the bar tightens vertically and increases blur intensity.
+
+2. HERO (full viewport, cinematic)
+   - Full-bleed background: a slow-zoom video loop OR a high-res still of
+     a hand pouring milk into espresso on a marble table, golden hour light.
+     Apply a 30–40% espresso gradient overlay at bottom for legibility.
+   - Centered headline (italic serif, mixed casing):
+       "Bir istasyon, bir durak,"
+       "ve hayatın en güzel ânı."
+     (Subtitle in caps Inter: "KARŞIYAKA · İZMİR · SINCE THE STATION OF 1896")
+   - Bottom-left: a tiny rotating glyph row (croissant · coffee · pasta).
+   - Bottom-right: scroll indicator — a thin gold line + "Aşağı kaydır"
+     in tiny caps.
+   - Top-right corner: live "AÇIK · 07:00–23:00" status pill (glass).
+
+3. STORY / "1896" (the heritage moment)
+   - Two-column on desktop. Left: a giant outlined "1896" number as a
+     graphic. Right: a 4–6 line poetic paragraph in italic serif about the
+     historic train station, the daily ritual, the meaning of "istasyon."
+   - Below: a horizontal timeline / vignette (3 small glass cards):
+       "07:00 — günün ilk fincanı"
+       "13:00 — el yapımı bir mola"
+       "21:00 — son tabağın huzuru"
+   - Background: subtle film grain texture over espresso.
+
+4. SIGNATURES SHOWCASE (no prices, no full menu — visual seduction only)
+   - Heading: italic serif — "Bu istasyonun imzası."
+   - Asymmetric editorial grid (Bento-style, NOT a uniform 3x3):
+       - Big tile: a close-up croissant tear shot (food photo)
+       - Tall tile: the steak + mashed potato dish
+       - Square: latte art top-down
+       - Wide tile: brunch plate with marble table
+       - Small: tiramisu close-up
+       - Tall: pastry display
+   - Each tile: image fills, on hover a glass overlay rises with an italic
+     caption ("A nice cut of meat", "The first meal of the day", etc.) —
+     SAME poetic English captions the brand already uses on Instagram.
+   - 3 small filter chips at top (FOOD · SNACKS · DRINKS) that fade-shift
+     the grid (no real filtering, just stylistic re-arrangement).
+
+5. ATMOSPHERE / GALLERY (cinematic strip)
+   - Full-width horizontal scrolling strip of 7–9 atmospheric photos
+     (interior, terrace, hands, light, marble, plants, customers).
+   - Auto-scroll slow, pauses on hover, drag to scrub on desktop.
+   - Caption per image in tiny italic.
+   - Above: italic serif heading — "Her sabah aynı yere dönmek için bir sebep."
+
+6. INSTAGRAM LIVE STRIP
+   - "Bizi @istasyon.1896 üzerinden takip et"
+   - 6 latest-style square tiles in a row (use static placeholder images
+     since this is frontend-only — but design like real IG embeds).
+   - Each tile: glass hover with the heart + comment count.
+
+7. VISIT / FIND US
+   - Full-width section split 60/40:
+       Left (60%): a stylized custom map of Karşıyaka with a gold pin
+       marking the address. Map style: dark monochrome with cream streets
+       (Mapbox custom-style aesthetic — describe it, Stitch will mock it).
+       Right (40%): glass card with:
+         - Address: İmbatlı, 1825. Sk. No:17, Karşıyaka / İzmir
+         - Hours grid: Pzt–Cmt 07:00–23:00, Pazar Kapalı (Pazar grayed out)
+         - Phone: 0533 074 32 35 (click-to-call)
+         - "Yol Tarifi Al" — gold text button → opens Google Maps
+   - Below: a single line of italic serif — "Kapımızı her sabah saat 07:00'de
+     açıyoruz."
+
+8. RESERVATION
+   - Centered card on espresso background.
+   - Glass surface, warm gradient inner glow.
+   - Heading italic serif: "Bir masa ayırtalım mı?"
+   - Subtext: "Hafta sonları yoğun. Önceden haber ver, en iyi köşeyi
+     senin için saklayalım."
+   - Two buttons side by side:
+       Primary (filled gold): "WHATSAPP'TAN YAZ" (links to wa.me/...)
+       Secondary (glass outline): "0533 074 32 35"
+   - Small footnote: "Rezervasyon ücretsizdir."
+
+9. FOOTER
+   - Espresso black background, cream type.
+   - Three columns:
+       Col 1: Big "İstasyon 1896" wordmark in serif gold + tagline.
+       Col 2: Quick nav links.
+       Col 3: Instagram handle, hours, address.
+   - Bottom strip: "© 2026 İstasyon 1896 · Karşıyaka, İzmir · Tüm hakları
+     saklıdır." in tiny caps, plus a tiny "Tasarım & Kod ile" attribution slot.
+
+────────────────────────────────────────────────────────────────────────────────
+MOTION & INTERACTIONS
+────────────────────────────────────────────────────────────────────────────────
+- Scroll-driven reveals: text rises 24px + fades 0→1 over 600ms ease-out
+  staggered by 80ms per element.
+- Hero background: subtle parallax (background moves at 0.6x scroll speed).
+- Image cards: 1.04x scale on hover, 400ms cubic-bezier(0.22,1,0.36,1).
+- Cursor: on desktop, a subtle custom cursor — a small gold dot that
+  expands to a 32px ring over interactive elements.
+- Page-load: a 600ms intro where the logo lands centered, then nav + hero
+  reveal underneath.
+- Lenis-style smooth scroll (inertial, never jank).
+- All transitions feel SLOW and confident, never bouncy or playful.
+
+────────────────────────────────────────────────────────────────────────────────
+LAYOUT GRID & SPACING
+────────────────────────────────────────────────────────────────────────────────
+- Container: max-width 1440px, side padding 80px desktop / 24px mobile.
+- 12-column grid, 32px gutter on desktop.
+- Vertical rhythm: section padding 160px top/bottom desktop, 96px mobile.
+- Generous negative space — let images breathe. NEVER cramped.
+
+────────────────────────────────────────────────────────────────────────────────
+RESPONSIVENESS
+────────────────────────────────────────────────────────────────────────────────
+- Mobile-first. Breakpoints: 640 / 768 / 1024 / 1440.
+- On mobile: hero headline drops to 56px italic serif, two lines.
+- Bento grid stacks to 1 column with full-bleed images.
+- Navigation collapses to a glass hamburger that slides a full-screen menu
+  in from the right with large italic serif links.
+- Touch targets minimum 44x44px.
+
+────────────────────────────────────────────────────────────────────────────────
+ACCESSIBILITY
+────────────────────────────────────────────────────────────────────────────────
+- WCAG 2.2 AA contrast minimum. Cream-on-espresso meets 7:1 (AAA).
+- Focus states: 2px gold outline, offset 4px.
+- All images: descriptive Turkish alt text.
+- Keyboard nav fully supported. Reduced-motion media query disables parallax.
+
+────────────────────────────────────────────────────────────────────────────────
+DELIVERABLES (what Stitch should output)
+────────────────────────────────────────────────────────────────────────────────
+- Desktop full-page mockup (1440px wide).
+- Mobile full-page mockup (390px wide).
+- Component sheet: nav, hero, signatures bento, gallery card, reservation
+  card, footer, glass button, status pill.
+- Two color theme variants: the primary espresso/gold version (default)
+  and an alternative "marble morning" lighter version with cream background.
+
+────────────────────────────────────────────────────────────────────────────────
+WHAT TO AVOID (HARD CONSTRAINTS)
+────────────────────────────────────────────────────────────────────────────────
+✗ No purple/blue gradients. No tech-bro SaaS look.
+✗ No emoji-heavy UI. No round avatars stacked.
+✗ No "AI generated" marble blob shapes or generic 3D blobs.
+✗ No center-aligned everything. Use editorial asymmetry.
+✗ No stock photo people pretending to drink coffee.
+✗ No bright pure white (#FFFFFF) anywhere — always warm cream.
+✗ No bouncy / spring / playful animations. The brand is composed and adult.
+✗ No multi-column text walls. Keep copy short, poetic, breathable.
+
+────────────────────────────────────────────────────────────────────────────────
+FINAL NOTE
+────────────────────────────────────────────────────────────────────────────────
+The reference vibe = a hybrid of:
+  · Aesop.com (typographic restraint)
+  · Norse Projects / Tres Bien (editorial minimalism)
+  · The Audo Copenhagen (warm material palette)
+  · Apple visionOS (the liquid glass language)
+  · An Italian fine-dining restaurant's website (food photography weight)
+
+If a section feels "fine," push it further. The bar is a website that the
+client could screenshot and post to Instagram — and it would get saved.
+
+================================================================================
+END OF PROMPT
+================================================================================

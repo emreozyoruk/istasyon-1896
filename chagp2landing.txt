@@ -1,0 +1,324 @@
+================================================================================
+CHATGPT IMAGE 2.0 — LANDING PAGE UI & HERO SECTION PROMPTLARI
+================================================================================
+
+İki prompt:
+  [A] Tüm landing page UI mockup'ı (full-page screenshot tarzı)
+  [B] Hero section'ın arka plan/ana görseli
+
+Her ikisi de İngilizce. ChatGPT'de Image 2.0 / GPT-Image-1 ile çalıştır.
+
+================================================================================
+[A] LANDING PAGE — FULL UI MOCKUP PROMPT
+================================================================================
+
+A full-page editorial website mockup screenshot for a premium artisan
+café-bakery in Karşıyaka, İzmir called "İstasyon 1896." Long vertical
+landing page screenshot, viewed as a desktop browser window (1440px wide),
+designed at the level of an Awwwards Site of the Day. Render the entire
+page from top to bottom in one tall vertical image.
+
+OVERALL AESTHETIC:
+- Slow-luxury, editorial, Pinterest-tier moody minimalism.
+- Dominant background: deep espresso brown #2A1A12.
+- Accent palette: warm cream #F4ECDF, antique gold #C9A961, marble #F8F5EE.
+- Typography: large italic serif headlines (Cormorant Garamond style) +
+  clean sans-serif body (Inter style) + tiny ALL-CAPS labels with wide
+  letter-spacing.
+- Liquid glass navigation and floating cards (Apple visionOS-inspired
+  glassmorphism: 24px blur, 6% cream tint, 1px hairline borders, soft
+  inner highlight).
+- Generous negative space. Editorial asymmetry. NO grid uniformity.
+
+PAGE SECTIONS FROM TOP TO BOTTOM:
+
+1. STICKY GLASS NAV BAR
+   - Frosted glass strip across the top, espresso-tinted blur.
+   - Left: small circular brown logo with gold "İSTASYON 1896" wordmark.
+   - Center: nav links in tiny caps — HİKAYE · ATMOSFER · LEZZETLER ·
+     ZİYARET · REZERVASYON.
+   - Right: small Instagram glyph + "TR / EN" toggle.
+   - Top-right corner pill: glass pill showing "AÇIK · 07:00–23:00" in tiny
+     gold caps with a small green dot.
+
+2. HERO (full viewport height)
+   - Background: cinematic photograph of a hand pouring milk from a small
+     pitcher into an espresso on a cream marble table, golden morning light,
+     shallow depth of field. A 40% dark espresso gradient overlays the
+     bottom half for text legibility.
+   - Centered headline in italic serif (mixed roman + italic):
+       "Bir istasyon, bir durak,"
+       "ve hayatın en güzel ânı."
+     (96px, line-height 0.95, cream color)
+   - Subtitle in tiny caps: "KARŞIYAKA · İZMİR · SINCE THE STATION OF 1896"
+   - Bottom-left: three tiny gold glyphs in a row (croissant · cup · plate).
+   - Bottom-right: thin gold vertical line + "AŞAĞI KAYDIR" in caps.
+
+3. STORY SECTION (espresso background)
+   - Two-column. Left column: an oversized outlined "1896" numeral in gold
+     italic serif, taking 60% of column height, no fill, only stroke.
+   - Right column: a 5-line italic serif paragraph (cream color) about the
+     historic train station and the meaning of "istasyon" — followed by
+     three small horizontal glass cards in a row:
+       Card 1: "07:00 · GÜNÜN İLK FİNCANI"
+       Card 2: "13:00 · EL YAPIMI BİR MOLA"
+       Card 3: "21:00 · SON TABAĞIN HUZURU"
+
+4. SIGNATURES BENTO GRID
+   - Section heading italic serif centered: "Bu istasyonun imzası."
+   - Three filter chips below in glass pills: FOOD · SNACKS · DRINKS
+     (FOOD active with gold underline).
+   - Asymmetric Bento grid (NOT uniform) of 6 food images:
+       - Big horizontal tile (top-left, 2x1): croissant tear close-up
+       - Tall tile (right, 1x2): pastry display vertical
+       - Square: latte art top-down
+       - Wide tile: brunch plate flat-lay
+       - Square: tiramisu
+       - Square: steak on mash
+   - Each tile has rounded 16px corners and a subtle cream glass overlay
+     at the bottom showing italic caption like "A nice cut of meat".
+
+5. MARBLE INTERMISSION
+   - One full-width section flips to warm marble cream #F8F5EE background.
+   - Centered italic serif quote: "Her sabah aynı yere dönmek için
+     bir sebep."
+   - Below it: a horizontal cinematic strip of 5 atmosphere photos
+     (interior, hands, light, plants, terrace), partially overlapping,
+     scrolling indication.
+
+6. INSTAGRAM STRIP
+   - Espresso background returns.
+   - Heading: "@istasyon.1896"
+   - Row of 6 square Instagram-style image tiles with subtle glass hover
+     showing heart count.
+
+7. VISIT / FIND US (split 60/40)
+   - Left 60%: a stylized dark monochrome map of Karşıyaka with cream
+     streets and a single gold pin at the address.
+   - Right 40%: a glass card containing:
+       Address: İmbatlı, 1825. Sk. No:17, Karşıyaka / İzmir
+       Hours grid (Mon–Sat 07:00–23:00, Sun grayed out)
+       Phone: 0533 074 32 35
+       Gold text link: "YOL TARİFİ AL →"
+
+8. RESERVATION CARD
+   - Full-width espresso section with a centered glass card.
+   - Italic serif heading: "Bir masa ayırtalım mı?"
+   - Two-line subtext in cream sans body.
+   - Two side-by-side buttons:
+       Primary filled gold pill: "WHATSAPP'TAN YAZ"
+       Secondary glass-outline pill: "0533 074 32 35"
+   - Tiny footnote: "Rezervasyon ücretsizdir."
+
+9. FOOTER
+   - Espresso black background, cream type, three-column layout.
+   - Col 1: large gold serif "İstasyon 1896" wordmark + tagline.
+   - Col 2: nav links list.
+   - Col 3: Instagram, hours, address.
+   - Bottom strip in tiny caps: "© 2026 İSTASYON 1896 · KARŞIYAKA, İZMİR"
+
+RENDER QUALITY:
+- Photorealistic UI screenshot quality, ultra-sharp text rendering.
+- Real-looking food photography inside the tiles (NOT illustrated).
+- Show subtle film grain throughout to unify the espresso background.
+- Show realistic glass blur effects on glass surfaces.
+- Output as one tall vertical image, full page, desktop 1440px wide
+  resolution feel.
+
+NEGATIVE: no purple tones, no neon, no SaaS gradients, no center-aligned
+sameness, no stock-photo people, no harsh white, no playful rounded
+fonts, no "AI generated" blob shapes.
+
+Aspect ratio: 9:32 (tall vertical full-page mockup).
+
+================================================================================
+[B] HERO SECTION VISUAL — STANDALONE BACKGROUND IMAGE PROMPT
+================================================================================
+
+A cinematic, ultra-premium hero photograph for the homepage of an
+artisan café-bakery in Karşıyaka, İzmir. Editorial Pinterest-tier moody
+aesthetic. Designed to be used as a full-bleed background behind italic
+serif headline text in cream color.
+
+COMPOSITION:
+A close-up, slightly off-center scene on a cream warm-marble café table:
+a small white porcelain pitcher in a feminine hand, mid-pour, releasing
+a continuous stream of warm steamed milk into a thin-rim ceramic cup of
+black espresso. The milk stream is captured with subtle motion blur. A
+single shortbread biscuit rests on the saucer beside it. To the right,
+slightly out of focus: a half-eaten golden croissant on a small ceramic
+plate. To the left, blurred: a linen-bound notebook and a brass fountain
+pen. Beyond, deep out-of-focus warmth: terracotta planters, a brass
+espresso machine, soft pendant lights as anamorphic golden bokeh.
+
+LIGHT:
+Golden hour morning sunlight enters from the upper left at a 30° angle,
+creating a glowing rim on the milk pitcher and the espresso surface.
+Soft long shadows fall to the lower-right. Single light source feel.
+Atmospheric haze with delicate dust particles caught in the light beam.
+
+COLOR GRADE:
+Deep espresso brown #2A1A12 in the shadows, lifted but never crushed.
+Warm cream #F4ECDF on the marble and milk highlights. Antique gold
+#C9A961 rim light on metal surfaces. Subtle Kodak Portra 400 film
+grain. Slightly warm white balance (5400K). Lifted blacks, gentle
+teal-orange contrast.
+
+TECHNICAL:
+Shot on a Sony A7R IV with an 85mm f/1.4 GM prime lens. f/1.8 aperture.
+1/250s shutter for crisp milk pour with subtle motion blur. ISO 200.
+Razor-thin depth of field on the milk stream and cup rim. The rest of
+the frame falls into a creamy organic bokeh.
+
+FRAMING:
+16:9 horizontal landscape. The pour action sits in the right-third of
+the frame. The left third and bottom-third are intentionally negative
+space (soft marble + dark out-of-focus warmth) — reserved for italic
+serif headline text overlay in cream. The bottom 30% of the image
+gradients into deeper espresso for text legibility.
+
+VIBE REFERENCE:
+Kinfolk magazine cover × Aesop product photography × Italian fine-dining
+restaurant homepage hero × Apple "Shot on iPhone" cinematic ad still.
+Slow, intentional, adult, expensive, quietly confident.
+
+NEGATIVE PROMPT:
+no text, no watermark, no logo, no oversaturation, no HDR look, no
+plastic skin, no fake hands with deformed fingers, no model posing,
+no fake smile, no modern tech (no phone, no laptop, no AirPods),
+no neon, no purple, no blue, no harsh studio strobe, no flat lighting,
+no Pinterest filter, no Instagram preset, no overly clean studio
+white, no 3D render look.
+
+Aspect ratio: 16:9 (1920x1080 minimum, 4K preferred).
+
+================================================================================
+KAYDETME ÖNERİSİ
+================================================================================
+public/images/
+  landing-mockup.png       → [A] çıktısı (Stitch ile karşılaştırma için)
+  hero-bg.jpg              → [B] çıktısı (gerçek site arka planı)
+  showcase-mockup.png      → [C] çıktısı (sunum / portföy görseli)
+
+================================================================================
+[C] WEBSITE SHOWCASE / PRESENTATION IMAGE — MULTI-SCREEN MOCKUP
+================================================================================
+
+A single ultra-premium presentation image showcasing the full website
+design of "İstasyon 1896" — an artisan café-bakery in Karşıyaka, İzmir.
+The image displays 5 different pages/screens of the site arranged in
+one cinematic composition, like a high-end design agency case-study
+hero shot or a Behance / Awwwards portfolio cover image.
+
+PURPOSE: This is a "marketing-the-design" image — used to present the
+website to a client. Quality bar: Pentagram / Locomotive / Active Theory
+case-study cover.
+
+OVERALL COMPOSITION:
+A wide horizontal scene on a moody backdrop. The background is a deep
+espresso brown #2A1A12 surface with subtle warm marble texture and a
+soft golden spotlight raking from the upper-left, creating gentle
+gradient falloff to the lower-right. Faint film grain throughout.
+Five website screens float in space at slight 3D perspective angles
+(NOT flat-on, NOT extreme isometric — gentle 8–15° tilts toward the
+viewer with realistic soft drop shadows beneath each).
+
+ARRANGEMENT (left to right, with depth layering):
+- LEFT BACKGROUND: a vertical mobile phone mockup (iPhone 15 Pro frame,
+  natural titanium edge), tilted 10° to the right, showing the mobile
+  hero of the site — italic serif headline "Bir istasyon, bir durak,"
+  over a dark cinematic milk-pour photo, glass nav at top.
+
+- LEFT MIDGROUND: a 14" laptop mockup (MacBook Pro space-black, slim
+  bezels), tilted 8° toward camera, screen showing the desktop HERO
+  section: full-bleed photo of milk pouring into espresso, italic
+  serif headline in cream, glass nav, scroll indicator.
+
+- CENTER FOREGROUND (largest, dominant): a floating 27" desktop monitor
+  mockup OR a clean browser window frame at a near-straight angle,
+  showing the SIGNATURES BENTO GRID page — asymmetric grid of 6 food
+  photos (croissant tear, pastry display, latte art, brunch plate,
+  tiramisu, steak), each tile with italic captions, FOOD/SNACKS/DRINKS
+  glass filter chips at top, "Bu istasyonun imzası." heading.
+
+- RIGHT MIDGROUND: another laptop mockup, tilted 8° left, screen
+  showing the VISIT / FIND US section — split-screen with dark
+  monochrome map of Karşıyaka on the left and a glass card with
+  address, hours, and phone on the right.
+
+- RIGHT BACKGROUND: a tablet mockup (iPad Pro, portrait orientation),
+  tilted 10° to the left, showing the RESERVATION section — centered
+  glass card with "Bir masa ayırtalım mı?" headline and two CTA
+  buttons (gold + glass).
+
+DEPTH & SCALE:
+- The center monitor is the hero — largest, sharpest, perfectly lit.
+- Side devices are slightly smaller, slightly softer (very subtle
+  defocus on the outer two), creating natural depth hierarchy.
+- All devices cast realistic soft contact shadows on the espresso
+  surface beneath them.
+
+ATMOSPHERIC DETAILS:
+- Subtle warm bokeh particles floating in the background (golden dots).
+- A delicate haze of light from upper-left, like late-afternoon café
+  window light.
+- Small décor elements grounding the scene at the bottom edge:
+  out-of-focus on the lower-left corner — a tiny espresso cup on a
+  saucer with steam; lower-right corner — a small sprig of rosemary
+  and a brass key. These are deeply blurred (f/2.0 background blur)
+  and only suggest atmosphere; they do NOT compete with the screens.
+- A faint typographic watermark "İstasyon 1896 · 2026" in tiny serif
+  gold caps in the lower-right corner of the entire composition.
+
+LIGHTING:
+- Single warm key light from upper-left at 35° angle, soft diffused.
+- Subtle gold rim light on the right edges of the devices.
+- Deep espresso shadows on the lower-right.
+- Screens emit a soft natural glow (NOT artificial cyan) — warm cream
+  tone matching the site's palette.
+
+TYPOGRAPHY ON SCREENS:
+- All screens render the actual UI sharply and legibly.
+- Italic serif headlines (Cormorant Garamond style) clearly visible.
+- ALL-CAPS micro labels with wide letter-spacing visible at appropriate
+  scales.
+- The brand color palette (espresso, cream, gold) consistent across
+  every screen — DO NOT introduce stray colors.
+
+COLOR PALETTE (strict):
+- Background: #2A1A12 (espresso) with #1A0F0A deeper shadow corners.
+- Highlights: #C9A961 (antique gold) accents.
+- Cream / marble notes: #F4ECDF on screen content.
+- Accent of warm terracotta #A04E2C only inside food photography.
+- ZERO blue, ZERO purple, ZERO neon, ZERO modern-tech-bro gradient.
+
+REFERENCE VIBE:
+- Behance "Project of the Day" hero image
+- Pentagram or Locomotive Studio case-study cover
+- High-end Dribbble shot for a luxury hospitality brand
+- Cinematic still-life × tech device mockup hybrid
+- "Aesop website redesign" portfolio post energy
+
+QUALITY:
+- Photorealistic device mockups with realistic screen reflection (very
+  subtle, not glossy/distracting).
+- Pixel-perfect UI rendering — text crisp, images inside screens
+  detailed (real-looking food photography, not illustrated).
+- Subtle film grain unifying the whole composition.
+- Output as one wide horizontal image, ultra-high resolution.
+
+NEGATIVE PROMPT:
+no text overlay outside screens, no watermarks except the discreet
+İstasyon 1896 mark, no random logos, no color grading toward blue or
+purple, no harsh white background, no flat-isometric grid arrangement,
+no obvious AI-blob shapes, no plastic-looking devices, no fake
+generic UI placeholders ("Lorem ipsum"), no stock photo of people
+holding laptops, no cluttered overlap, no neon glow on devices, no
+extreme tilt that hides the screen content, no dated 2018-style
+glassmorphism on the backdrop.
+
+Aspect ratio: 16:9 (3840x2160 / 4K preferred for client presentation).
+
+================================================================================
+END
+================================================================================
