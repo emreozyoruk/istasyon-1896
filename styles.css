@@ -26,8 +26,8 @@
   --pad-x:           80px;
   --pad-y:           160px;
 
-  --font-display:    'Cormorant Garamond', 'Georgia', serif;
-  --font-body:       'Inter', system-ui, -apple-system, sans-serif;
+  --font-display:    'Fraunces', 'Cormorant Garamond', 'Georgia', serif;
+  --font-body:       'Manrope', system-ui, -apple-system, sans-serif;
 
   --ease:            cubic-bezier(0.22, 1, 0.36, 1);
 }
@@ -65,31 +65,217 @@ em { font-style: italic; }
   padding: 0 var(--pad-x);
 }
 
-/* film grain */
+/* film grain — stronger, animated */
 body::before {
   content: "";
   position: fixed;
-  inset: 0;
+  inset: -50%;
   pointer-events: none;
   z-index: 1000;
-  opacity: 0.04;
+  opacity: 0.06;
   mix-blend-mode: overlay;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.6'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' seed='8'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.7'/></svg>");
+  animation: grainShift 8s steps(8) infinite;
 }
+@keyframes grainShift {
+  0%, 100% { transform: translate(0, 0); }
+  10% { transform: translate(-3%, -2%); }
+  20% { transform: translate(2%, 4%); }
+  30% { transform: translate(-1%, 5%); }
+  40% { transform: translate(4%, -2%); }
+  50% { transform: translate(-3%, 3%); }
+  60% { transform: translate(0, -4%); }
+  70% { transform: translate(2%, 1%); }
+  80% { transform: translate(-2%, 0); }
+}
+
+/* ============ FRAUNCES VARIATION ============ */
+html { font-optical-sizing: auto; }
+
+.section-heading,
+.hero-headline,
+.story-numeral,
+.story-text p,
+.story-card strong,
+.tile figcaption,
+.phone,
+.reservation-card h2,
+.footer-mark,
+.brand-tagline,
+.logo-word,
+.marker-num,
+.dropcap {
+  font-family: var(--font-display);
+}
+.hero-headline      { font-variation-settings: "SOFT" 80; }
+.section-heading    { font-variation-settings: "SOFT" 60; }
+.story-numeral      { font-variation-settings: "SOFT" 100; }
+.dropcap            { font-variation-settings: "SOFT" 100; }
+.story-card strong  { font-variation-settings: "SOFT" 30; }
+.tile figcaption    { font-variation-settings: "SOFT" 70; }
+.reservation-card h2{ font-variation-settings: "SOFT" 70; }
+.footer-mark        { font-variation-settings: "SOFT" 60; }
+.marker-num         { font-variation-settings: "SOFT" 80; }
 
 /* ============ TYPOGRAPHY ============ */
 .section-heading {
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 400;
   font-size: clamp(36px, 5vw, 64px);
   line-height: 1.05;
   text-align: center;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
   margin: 0 0 48px 0;
   color: var(--crema);
+  font-variation-settings: "opsz" 144, "SOFT" 60;
 }
 .section-heading.dark { color: var(--coffee); }
 .section-heading em { font-style: italic; }
+
+/* ============ SECTION MARKERS ============ */
+.section-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin: 0 auto 14px;
+  max-width: 200px;
+  color: var(--gold);
+  opacity: 0.85;
+}
+.marker-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to var(--dir, right), transparent, var(--gold-soft));
+}
+.marker-line:last-child { background: linear-gradient(to left, transparent, var(--gold-soft)); }
+.marker-num {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  font-variation-settings: "opsz" 144, "SOFT" 80;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+.section-marker.dark .marker-line {
+  background: linear-gradient(to right, transparent, rgba(58, 38, 24, 0.5));
+}
+.section-marker.dark .marker-line:last-child {
+  background: linear-gradient(to left, transparent, rgba(58, 38, 24, 0.5));
+}
+.section-marker.dark .marker-num { color: var(--coffee); }
+
+.section-eyebrow {
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 11px;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  color: var(--crema-dim);
+  margin: 0 0 32px;
+  font-weight: 400;
+}
+.section-eyebrow.dark { color: var(--coffee); opacity: 0.7; }
+
+/* ============ ORNAMENT DIVIDER ============ */
+.ornament-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  padding: 56px 0;
+  background: var(--espresso);
+}
+.o-line {
+  width: 80px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, var(--gold-soft) 50%, transparent 100%);
+}
+.o-fleuron {
+  font-size: 22px;
+  color: var(--gold);
+  opacity: 0.7;
+  transform: rotate(0deg);
+  font-family: var(--font-display);
+}
+
+/* ============ DROP CAP ============ */
+.dropcap {
+  font-family: var(--font-display);
+  font-variation-settings: "opsz" 144, "SOFT" 100;
+  font-style: italic;
+  font-weight: 500;
+  float: left;
+  font-size: 5em;
+  line-height: 0.85;
+  padding: 0.04em 0.08em 0 0;
+  margin-top: 0.04em;
+  color: var(--gold);
+  background: linear-gradient(135deg, #E0C078 0%, #C9A961 50%, #9A7E40 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ============ CUSTOM CURSOR ============ */
+@media (hover: hover) and (min-width: 1024px) {
+  body { cursor: none; }
+  a, button, .tile, .ig-tile, .chip, .scroll-cue, [role="tab"] { cursor: none; }
+
+  .cursor-dot,
+  .cursor-ring {
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 200ms ease;
+  }
+  .cursor-dot {
+    width: 6px;
+    height: 6px;
+    background: var(--gold);
+    box-shadow: 0 0 12px rgba(201, 169, 97, 0.5);
+    transition: transform 80ms ease-out, width 250ms var(--ease), height 250ms var(--ease), opacity 200ms;
+  }
+  .cursor-ring {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--gold-soft);
+    transition: transform 350ms cubic-bezier(0.16, 1, 0.3, 1), width 300ms var(--ease), height 300ms var(--ease), border-color 200ms, opacity 200ms;
+  }
+  body.cursor-hover .cursor-dot {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  body.cursor-hover .cursor-ring {
+    width: 56px;
+    height: 56px;
+    border-color: var(--gold);
+    background: rgba(201, 169, 97, 0.06);
+  }
+}
+@media not all and (hover: hover), (max-width: 1023px) {
+  .cursor-dot, .cursor-ring { display: none; }
+}
+
+/* ============ INTRO PAGE-LOAD ============ */
+.nav,
+.hero-inner,
+.hero-bottom {
+  animation: introFade 1100ms cubic-bezier(0.22, 1, 0.36, 1) 280ms both;
+}
+.hero-inner { animation-delay: 480ms; }
+.hero-bottom { animation-delay: 820ms; }
+@keyframes introFade {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
 
 /* ============ GLASS PRIMITIVE ============ */
 .glass {

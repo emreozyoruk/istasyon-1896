@@ -125,8 +125,50 @@
     burger.addEventListener('click', () => {
       const expanded = burger.getAttribute('aria-expanded') === 'true';
       burger.setAttribute('aria-expanded', String(!expanded));
-      // simple anchor: just scroll links list won't be visible; could expand future menu
       document.querySelector('.nav-links')?.classList.toggle('open');
+    });
+  }
+
+  // ---- custom cursor (desktop with hover support only)
+  const supportsHoverDesktop =
+    window.matchMedia('(hover: hover)').matches &&
+    window.matchMedia('(min-width: 1024px)').matches;
+
+  if (supportsHoverDesktop) {
+    const dot  = document.querySelector('.cursor-dot');
+    const ring = document.querySelector('.cursor-ring');
+    let mx = window.innerWidth / 2, my = window.innerHeight / 2;
+    let rx = mx, ry = my;
+    let raf;
+
+    const tick = () => {
+      // dot follows immediately, ring lerps
+      rx += (mx - rx) * 0.18;
+      ry += (my - ry) * 0.18;
+      if (dot)  dot.style.transform  = `translate(${mx}px, ${my}px) translate(-50%, -50%)`;
+      if (ring) ring.style.transform = `translate(${rx}px, ${ry}px) translate(-50%, -50%)`;
+      raf = requestAnimationFrame(tick);
+    };
+    tick();
+
+    document.addEventListener('mousemove', e => {
+      mx = e.clientX;
+      my = e.clientY;
+    }, { passive: true });
+
+    document.addEventListener('mouseleave', () => {
+      if (dot)  dot.style.opacity = '0';
+      if (ring) ring.style.opacity = '0';
+    });
+    document.addEventListener('mouseenter', () => {
+      if (dot)  dot.style.opacity = '1';
+      if (ring) ring.style.opacity = '1';
+    });
+
+    const interactives = 'a, button, .tile, .ig-tile, .chip, .scroll-cue, [role="tab"], input, textarea, select';
+    document.querySelectorAll(interactives).forEach(el => {
+      el.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
+      el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-hover'));
     });
   }
 })();
