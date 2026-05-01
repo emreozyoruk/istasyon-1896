@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="bg" cx="0.35" cy="0.3" r="0.9">
+      <stop offset="0%" stop-color="#4A332A"/>
+      <stop offset="55%" stop-color="#3E2A1F"/>
+      <stop offset="100%" stop-color="#1A0F0A"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0C078"/>
+      <stop offset="50%" stop-color="#C9A961"/>
+      <stop offset="100%" stop-color="#9A7E40"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <circle cx="32" cy="32" r="32" fill="url(#bg)"/>
+
+  <!-- inner gold ring -->
+  <circle cx="32" cy="32" r="28.5" fill="none" stroke="url(#goldGrad)" stroke-width="0.7" opacity="0.55"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="url(#goldGrad)" stroke-width="0.4" opacity="0.25"/>
+
+  <!-- coffee bean (centered, slight rotation) -->
+  <g transform="translate(32 32) rotate(-22)">
+    <!-- outer bean shape -->
+    <path d="M0,-18 C8,-18 12,-10 12,0 C12,10 8,18 0,18 C-8,18 -12,10 -12,0 C-12,-10 -8,-18 0,-18 Z"
+          fill="none" stroke="url(#goldGrad)" stroke-width="2.2" stroke-linejoin="round"/>
+    <!-- center crease -->
+    <path d="M0,-15 C-3.5,-8 -3.5,8 0,15"
+          fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- subtle inner highlight -->
+  <ellipse cx="22" cy="20" rx="10" ry="6" fill="#F4ECDF" opacity="0.04"/>
+</svg>
