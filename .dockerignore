@@ -1,0 +1,28 @@
+.git
+.gitignore
+.github
+.playwright-mcp
+test-*.png
+istasyon-fullpage.png
+
+# Docs / prompts — not needed in image
+README.md
+tasarım.txt
+chatgpt2.txt
+chagp2landing.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+*.swp
+*.swo
+
+# Docker meta — already on host
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# logs
+*.log

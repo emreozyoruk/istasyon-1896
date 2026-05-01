@@ -27,13 +27,62 @@ Tarayıcıdan: <http://localhost:4173/index.html>
 
 ## Deploy
 
-Vercel'e deploy etmek için:
-
+### Vercel / Netlify / Cloudflare Pages
 ```bash
 vercel deploy
 ```
+Statik olduğu için herhangi bir static host çalışır.
 
-Statik olduğu için Netlify, GitHub Pages, Cloudflare Pages — herhangi bir static host çalışır.
+### Docker (Ubuntu / VDS)
+
+Container içinde nginx:alpine ile **port 3000**'de yayın yapar.
+
+```bash
+# clone ya da rsync ile sunucuya at
+git clone https://github.com/emreozyoruk/istasyon-1896.git
+cd istasyon-1896
+
+# tek komut
+docker compose up -d
+
+# ya da manuel
+docker build -t istasyon-1896 .
+docker run -d -p 3000:3000 --name istasyon-1896 --restart unless-stopped istasyon-1896
+```
+
+Site yayında: `http://<sunucu-ip>:3000`
+
+Image ~58 MB. Healthcheck dahil. Gzip + cache header'ları yapılandırılmış. Hero video için byte-range (mp4 modülü) açık.
+
+```bash
+# logları izle
+docker logs -f istasyon-1896
+
+# durdur / başlat
+docker compose down
+docker compose up -d
+
+# güncelleme (yeni commit sonrası)
+git pull && docker compose up -d --build
+```
+
+Reverse-proxy (Nginx / Caddy / Traefik) ile 80/443'e bağlamak istersen:
+
+```nginx
+# /etc/nginx/sites-available/istasyon
+server {
+    listen 80;
+    server_name istasyon1896.com www.istasyon1896.com;
+    location / {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
+Sonra `certbot --nginx -d istasyon1896.com` ile SSL.
 
 ## Yapı
 
