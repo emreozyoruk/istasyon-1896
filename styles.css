@@ -308,9 +308,9 @@ body::before {
 }
 .scroll-cue {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 14px;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
   font-size: 10px;
   letter-spacing: 0.32em;
   text-transform: uppercase;
@@ -320,8 +320,8 @@ body::before {
 .scroll-cue:hover { color: var(--gold); }
 .cue-line {
   width: 1px;
-  height: 60px;
-  background: linear-gradient(to bottom, var(--gold) 0%, transparent 100%);
+  height: 90px;
+  background: linear-gradient(to top, var(--gold) 0%, rgba(201,169,97,0.2) 60%, transparent 100%);
   position: relative;
 }
 .cue-line::after {
@@ -333,14 +333,14 @@ body::before {
   height: 5px;
   background: var(--gold);
   border-radius: 50%;
-  animation: cueDot 2.4s ease-in-out infinite;
+  box-shadow: 0 0 8px var(--gold);
+  animation: cueDot 2.6s ease-in-out infinite;
 }
 @keyframes cueDot {
-  0% { top: 0; opacity: 1; }
-  60% { top: 50px; opacity: 0; }
-  61% { top: 0; opacity: 0; }
-  62% { top: 0; opacity: 1; }
-  100% { top: 0; opacity: 1; }
+  0% { top: 0; opacity: 0; }
+  15% { opacity: 1; }
+  85% { opacity: 1; }
+  100% { top: 80px; opacity: 0; }
 }
 
 @media (max-width: 768px) {
